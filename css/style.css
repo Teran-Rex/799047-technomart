@@ -1,0 +1,35 @@
+﻿body {
+    background-color: #ffffff;
+    min-width: 1200px;
+}
+header {
+    height: 260px;
+    background-color: #f3f7f8;
+}
+.main-header {
+    color: #ffffff;
+    background-color: #293449;
+    height: 42px;
+}
+.search{
+    width: 513px;
+    display: inline-block;
+}
+.action{
+    display: inline-block;
+}
+.action li{
+    display: inline-block;
+    list-style: none;
+}
+.action li > a{
+    color: white;
+    text-decoration: none;
+}
+.search::before {
+    content: '';
+    display: inline-block;
+    background-image: url(img/svg-technomart/icon-search.svg);
+    width: 17px;
+    height: 17px;
+}
